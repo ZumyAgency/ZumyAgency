@@ -3,6 +3,7 @@
   <head>
     <!-- Meta -->
     <meta charset="utf-8" />
+    <base href="../" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
@@ -18,7 +19,7 @@
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link
+    <link 
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
@@ -56,7 +57,7 @@
           <div class="container">
             <!-- Logo Start -->
             <a class="navbar-brand" href="./">
-              <img src="images/logo.png" alt="Logo" />
+              <img src="./images/logo.png" alt="Logo" />
             </a>
             <!-- Logo End -->
 
@@ -65,74 +66,27 @@
               <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="./zh/index.html">首页</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link" href="./zh/services.html">服务项目</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="zh/contact.html">联系我们</a>
                   </li>
                   <li class="nav-item submenu">
-                    <a class="nav-link" href="#">Pages</a>
+                    <a class="nav-link" href="zh/index.html" id="lang-toggle">ZH 🌐</a>
                     <ul>
                       <li class="nav-item">
-                        <a class="nav-link" href="service-single.html"
-                          >Service Details</a
-                        >
+                        <a class="nav-link" href="index.html" data-lang="EN">EN <i class="flag-icon flag-icon-gb"></i></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="zh/index.html" data-lang="ZH">ZH <i class="flag-icon flag-icon-cn"></i></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="blog-single.html"
-                          >Blog Details</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="project-single.html"
-                          >Project Details</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="team.html">Team</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="team-single.html"
-                          >Team Details</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Pricing Plan</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="testimonial.html"
-                          >Testimonials</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="image-gallery.html"
-                          >Image Gallery</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="video-gallery.html"
-                          >Video Gallery</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="faqs.html">FAQs</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="404.html">404</a>
+                        <a class="nav-link" href="ru/index.html" data-lang="RU">RU <i class="flag-icon flag-icon-ru"></i></a>
                       </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -143,13 +97,13 @@
                 <div class="header-social-links">
                   <ul>
                     <li>
-                      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                      <a href="https://t.me/zumyagency" target="_blank"><i class="fa-brands fa-brands fa-telegram"></i></a>
                     </li>
                     <li>
                       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://wa.me/84834193366" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -165,7 +119,7 @@
                     data-bs-target="#offcanvasRight"
                     aria-controls="offcanvasRight"
                   >
-                    <img src="images/header-btn-dot.svg" alt="" />
+                    <img src="./images/header-btn-dot.svg" alt="" />
                   </button>
                   <!-- Toggle Button trigger modal End -->
 
@@ -186,11 +140,11 @@
                       <!-- Header Contact Box Start -->
                       <div class="header-contact-box">
                         <div class="icon-box">
-                          <img src="images/icon-phone-accent.svg" alt="" />
+                          <img src="./images/icon-phone-accent.svg" alt="" />
                         </div>
                         <div class="header-contact-box-content">
-                          <h3>phone</h3>
-                          <p>+123 456 789</p>
+                          <h3>电话</h3>
+                          <p>+84 83 419 33 66</p>
                         </div>
                       </div>
                       <!-- Header Contact Box End -->
@@ -198,11 +152,11 @@
                       <!-- Header Contact Box Start -->
                       <div class="header-contact-box">
                         <div class="icon-box">
-                          <img src="images/icon-mail-accent.svg" alt="" />
+                          <img src="./images/icon-mail-accent.svg" alt="" />
                         </div>
                         <div class="header-contact-box-content">
-                          <h3>email</h3>
-                          <p>info@domainname.com</p>
+                          <h3>邮箱</h3>
+                          <p>agencyzumy@gmail.com</p>
                         </div>
                       </div>
                       <!-- Header Contact Box End -->
@@ -210,12 +164,12 @@
                       <!-- Header Contact Box Start -->
                       <div class="header-contact-box">
                         <div class="icon-box">
-                          <img src="images/icon-location-accent.svg" alt="" />
+                          <img src="./images/icon-location-accent.svg" alt="" />
                         </div>
                         <div class="header-contact-box-content">
-                          <h3>address</h3>
+                          <h3>地址</h3>
                           <p>
-                            123 Creative Lane London, SW1A 1AA United Kingdom
+                            Ha Noi, Viet Nam
                           </p>
                         </div>
                       </div>
@@ -223,11 +177,11 @@
 
                       <!-- Header Social Links Start -->
                       <div class="header-social-links sidebar-social-links">
-                        <h3>stay connected</h3>
+                        <h3>关注我们</h3>
                         <ul>
                           <li>
-                            <a href="#"
-                              ><i class="fa-brands fa-x-twitter"></i
+                            <a href="https://t.me/zumyagency" target="_blank"
+                              ><i class="fa-brands fa-brands fa-telegram"></i
                             ></a>
                           </li>
                           <li>
@@ -236,8 +190,8 @@
                             ></a>
                           </li>
                           <li>
-                            <a href="#"
-                              ><i class="fa-brands fa-instagram"></i
+                            <a href="https://wa.me/84834193366"
+                              ><i class="fa-brands fa-whatsapp"></i
                             ></a>
                           </li>
                         </ul>
@@ -247,6 +201,7 @@
                   </div>
                   <!-- Header Sidebar End -->
                 </div>
+
                 <!-- Header Btn End -->
               </div>
               <!-- Header Social Box End -->
@@ -268,13 +223,13 @@
             <!-- Page Header Box Start -->
             <div class="page-header-box">
               <h1 class="text-anime-style-2" data-cursor="-opaque">
-                Our <span>services</span>
+                <span>服务项目</span>
               </h1>
               <nav class="wow fadeInUp">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="./">home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">
-                    our services
+                    服务项目
                   </li>
                 </ol>
               </nav>
@@ -291,106 +246,54 @@
       <!-- Scrolling Ticker Start -->
       <div class="scrolling-ticker-box">
         <div class="scrolling-content">
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Cloud Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />IT Consulting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Technology
-            Strategy</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Business
-            Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Analytics &
-            Reporting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Cloud Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />IT Consulting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Technology
-            Strategy</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Business
-            Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Analytics &
-            Reporting</span
-          >
+          <span><img src="images/asterisk-icon.svg" alt="" />免费开户</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />24/7 全天候支持</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />快速存取款 - 完全免费</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />成本低至4% - 无限制</span>
         </div>
 
         <div class="scrolling-content">
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Cloud Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />IT Consulting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Technology
-            Strategy</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Business
-            Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Analytics &
-            Reporting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Cloud Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />IT Consulting</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Technology
-            Strategy</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Business
-            Solutions</span
-          >
-          <span
-            ><img src="images/asterisk-icon.svg" alt="" />Analytics &
-            Reporting</span
-          >
+          <span><img src="images/asterisk-icon.svg" alt="" />免费开户</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />24/7 全天候支持</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />快速存取款 - 完全免费</span>
+          <span><img src="images/asterisk-icon.svg" alt="" />成本低至4% - 无限制</span>
         </div>
       </div>
       <!-- Scrolling Ticker End -->
     </div>
     <!-- Scrolling Ticker Section End -->
 
-    <!-- Page Services Start -->
-    <div class="page-services">
+    <!-- Our Service Section Start -->
+    <div class="our-services">
       <div class="container">
+        <div class="row section-row">
+          <div class="col-lg-12">
+            <!-- Section Title Start -->
+            <div class="section-title">
+              <h3 class="wow fadeInUp">服务项目</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  创新设计<span>服务</span>，精准匹配您的需求
+              </h2>
+            </div>
+            <!-- Section Title End -->
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp">
               <div class="icon-box">
-                <img src="images/icon-service-item-1.svg" alt="" />
+                <img src="images/service-single-img.jpg" alt="" />
               </div>
               <div class="service-content">
-                <h3><a href="service-single.html">brand identity design</a></h3>
+                <h3><a href="zh/service-single.html">Facebook广告账户租用</a></h3>
                 <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
+                    专业提供高质量Facebook广告账户租赁服务
                 </p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
+                <a href="zh/service-single.html"
                   ><img src="images/arrow-dark.svg" alt=""
                 /></a>
               </div>
@@ -402,19 +305,18 @@
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon-box">
-                <img src="images/icon-service-item-2.svg" alt="" />
+                <img src="images/service-single-img-1.jpg" alt="" />
               </div>
               <div class="service-content">
                 <h3>
-                  <a href="service-single.html">web design & development</a>
+                  <a href="zh/service-single-1.html">企业商务管理平台</a>
                 </h3>
                 <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
+                    专业管理5000+广告账户的营销解决方案
                 </p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
+                <a href="zh/service-single-1.html"
                   ><img src="images/arrow-dark.svg" alt=""
                 /></a>
               </div>
@@ -426,18 +328,17 @@
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon-box">
-                <img src="images/icon-service-item-3.svg" alt="" />
+                <img src="images/service-single-img-2.jpg" alt="" />
               </div>
               <div class="service-content">
-                <h3><a href="service-single.html">graphic design</a></h3>
+                <h3><a href="zh/service-single-2.html">财务透明化管理</a></h3>
                 <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
+                    专业透明的成本管控体系
                 </p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
-                  ><img src="images/arrow-dark.svg" alt=""
+                <a href="service-single-2.html"
+                  ><img src="zh/images/arrow-dark.svg" alt=""
                 /></a>
               </div>
             </div>
@@ -448,19 +349,18 @@
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
               <div class="icon-box">
-                <img src="images/icon-service-item-4.svg" alt="" />
+                <img src="images/service-single-img-3.jpg" alt="" />
               </div>
               <div class="service-content">
                 <h3>
-                  <a href="service-single.html">motion graphics & animation</a>
+                  <a href="zh/service-single-3.html">像素追踪系统</a>
                 </h3>
                 <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
+                    提供广告全链路追踪、效果评估与智能优化的一站式解决方案
                 </p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
+                <a href="zh/service-single-3.html"
                   ><img src="images/arrow-dark.svg" alt=""
                 /></a>
               </div>
@@ -472,19 +372,18 @@
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
               <div class="icon-box">
-                <img src="images/icon-service-item-5.svg" alt="" />
+                <img src="https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2023/7/14/bbd-1689323434424963810033-0-0-313-598-crop-1689323446409329038205.jpg" alt="" />
               </div>
               <div class="service-content">
                 <h3>
-                  <a href="service-single.html">photography & videography</a>
+                  <a href="zh/service-single-4.html">7×24小时全天候支持</a>
                 </h3>
                 <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
+                    全程护航快速响应，保障广告投放零中断
                 </p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
+                <a href="zh/service-single-4.html"
                   ><img src="images/arrow-dark.svg" alt=""
                 /></a>
               </div>
@@ -496,17 +395,14 @@
             <!-- Service Item Start -->
             <div class="service-item wow fadeInUp" data-wow-delay="1s">
               <div class="icon-box">
-                <img src="images/icon-service-item-6.svg" alt="" />
+                <img src="images/service-single-img.jpg" alt="" />
               </div>
               <div class="service-content">
-                <h3><a href="service-single.html">creative consulting</a></h3>
-                <p>
-                  Crafting logos, color palettes guidelines to define your
-                  unique identity.
-                </p>
+                <h3><a href="zh/service-single-5.html">成本优化方案</a></h3>
+                <p>透明计价体系+行业竞争优势+阶梯返佣制度</p>
               </div>
               <div class="service-btn">
-                <a href="service-single.html"
+                <a href="zh/service-single-5.html"
                   ><img src="images/arrow-dark.svg" alt=""
                 /></a>
               </div>
@@ -518,9 +414,9 @@
             <!-- Service Footer Start -->
             <div class="service-footer wow fadeInUp" data-wow-delay="1.2s">
               <p>
-                <span>Free</span> Let's make something great work together.<a
-                  href="contact.html"
-                  >Get Free Quote</a
+                <span>高额佣金</span> 立即推荐赚取收益 <a
+                    href="zh/contact.html"
+                    >获取推荐资格</a
                 >
               </p>
             </div>
@@ -529,106 +425,8 @@
         </div>
       </div>
     </div>
-    <!-- Page Services End -->
+    <!-- Our Service Section End -->
 
-    <!-- Our FAQs Section Start -->
-    <div class="our-faqs">
-      <div class="container">
-        <div class="row section-row">
-          <div class="col-lg-12">
-            <!-- Section Title Start -->
-            <div class="section-title">
-              <h3 class="wow fadeInUp">FAQs</h3>
-              <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Answer to your <span>most common</span> questions
-              </h2>
-            </div>
-            <!-- Section Title End -->
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <!-- FAQs Item Box Start -->
-            <div class="faqs-item-box">
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp">
-                <div class="faqs-item-content">
-                  <h3>What services do you offer?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp" data-wow-delay="0.2s">
-                <div class="faqs-item-content">
-                  <h3>What is your design process?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp" data-wow-delay="0.4s">
-                <div class="faqs-item-content">
-                  <h3>Can I make updates to the design later?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp" data-wow-delay="0.6s">
-                <div class="faqs-item-content">
-                  <h3>Do you work with clients internationally?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp" data-wow-delay="0.8s">
-                <div class="faqs-item-content">
-                  <h3>How long does a project take?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-
-              <!-- FAQs Item Start -->
-              <div class="faqs-item wow fadeInUp" data-wow-delay="1s">
-                <div class="faqs-item-content">
-                  <h3>Do I own the rights to the designs?</h3>
-                  <p>
-                    Our pricing is based on the scope and complexity of each
-                    project and Contact us for a custom quote.
-                  </p>
-                </div>
-              </div>
-              <!-- FAQs Item End -->
-            </div>
-            <!-- FAQs Item Box End -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Our FAQs Section End -->
 
     <!-- Our Testimonials Section Start -->
     <div class="our-testimonials">
@@ -637,9 +435,9 @@
           <div class="col-lg-12">
             <!-- Section Title Start -->
             <div class="section-title">
-              <h3 class="wow fadeInUp">testimonials</h3>
+              <h3 class="wow fadeInUp">客户见证</h3>
               <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Hear what <span>our happy</span> clients say
+                  聆听<span>满意客户</span>的真实反馈
               </h2>
             </div>
             <!-- Section Title End -->
@@ -647,84 +445,118 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4">
-            <!-- Testimonial Image Start -->
-            <div class="testimonial-image">
-              <figure class="image-anime reveal">
-                <img src="images/testimonial-image.jpg" alt="" />
-              </figure>
-            </div>
-            <!-- Testimonial Image End -->
-          </div>
-
-          <div class="col-lg-8">
             <!-- Testimonial Slider Start -->
             <div class="testimonial-slider">
               <div class="swiper">
                 <div class="swiper-wrapper" data-cursor-text="Drag">
                   <!-- Testimonial Slide Start -->
                   <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                    <div class="row">
+                      <div class="testimonial-item col-lg-4" >
+                        <!-- Testimonial Image Start -->
+                        <div class="testimonial-image" >
+                          <figure class="image-anime reveal">
+                            <img src="images/feedback1.jpg" alt="" />
+                          </figure>
                         </div>
-                        <div class="testimonial-rating-conuter">
-                          <p><span class="counter">5.0</span></p>
+                        <!-- Testimonial Image End -->
+                      </div>
+                      <div class="testimonial-item col-lg-8">
+                        <div class="testimonial-header">
+                          <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="testimonial-rating-conuter">
+                            <p><span class="counter">5.0</span></p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="testimonial-content">
-                        <p>
-                          "Working with this team an absolute pleasure. They
-                          took our vague idea & transformed them into a stunning
-                          visual identity that exceeded our expectation. From
-                          the initial consultation to the final product their
-                          attention to detail & ability to bring our brand to
-                          life exceptional. They were always open to feedback &
-                          made sure we were fully satisfied at every step."
-                        </p>
-                      </div>
-                      <div class="testimonial-body">
-                        <h3>Emma johnson</h3>
-                        <p>Visionary designs</p>
+                        <div class="testimonial-content">
+                          <p>
+                              "我们曾与众多国际伙伴合作，但贵公司的服务真正脱颖而出。所提供的账户实力强劲、无使用限制且性价比优异，完全如承诺般零隐藏费用。7×24小时专业客服团队响应迅速，处理各类需求游刃有余。我们尤其赞赏贵司服务跨国客户的透明度与专业能力，完美契合我们这类全球化企业的需求。"
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                            <h3>李伟 - 中国客户</h3>
+                            <p>金融政企广告客户</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <!-- Testimonial Slide End -->
 
-                  <!-- Testimonial Slide Start -->
                   <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <div class="testimonial-header">
-                        <div class="testimonial-rating">
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                    <div class="row">
+                      <div class="testimonial-item col-lg-4" >
+                        <!-- Testimonial Image Start -->
+                        <div class="testimonial-image" >
+                          <figure class="image-anime reveal">
+                            <img src="images/feedback2.jpg" alt="" />
+                          </figure>
                         </div>
-                        <div class="testimonial-rating-conuter">
-                          <p><span class="counter">5.0</span></p>
+                        <!-- Testimonial Image End -->
+                      </div>
+                      <div class="testimonial-item col-lg-8">
+                        <div class="testimonial-header">
+                          <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="testimonial-rating-conuter">
+                            <p><span class="counter">5.0</span></p>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                              "与这家公司的合作令人惊叹！提供的广告账户稳定可靠、毫无限制，且费用合理透明无隐藏消费。免费赠送的主页和账户资源，让我们得以极速启动营销活动。24小时客服团队始终热情响应，提供专业解决方案。对像我们这样的国际企业来说，这确实是值得信赖的优质合作伙伴。"
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                            <h3>Arif Pratama - 印度尼西亚客户</h3>
+                            <p>棋牌游戏推广客户</p>
                         </div>
                       </div>
-                      <div class="testimonial-content">
-                        <p>
-                          "Working with this team an absolute pleasure. They
-                          took our vague idea & transformed them into a stunning
-                          visual identity that exceeded our expectation. From
-                          the initial consultation to the final product their
-                          attention to detail & ability to bring our brand to
-                          life exceptional. They were always open to feedback &
-                          made sure we were fully satisfied at every step."
-                        </p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="testimonial-item col-lg-4" >
+                        <!-- Testimonial Image Start -->
+                        <div class="testimonial-image" >
+                          <figure class="image-anime reveal">
+                            <img src="images/feedback3.jpg" alt="" />
+                          </figure>
+                        </div>
+                        <!-- Testimonial Image End -->
                       </div>
-                      <div class="testimonial-body">
-                        <h3>devon lane</h3>
-                        <p>designer</p>
+                      <div class="testimonial-item col-lg-8">
+                        <div class="testimonial-header">
+                          <div class="testimonial-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="testimonial-rating-conuter">
+                            <p><span class="counter">5.0</span></p>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                            "该公司提供的透明服务和高效运营令我们印象深刻。从初期咨询到广告投放，全程流畅高效，相比自主管理账户大幅优化了预算。特别是免费提供的主页和账户资源，为我们节省了大量筹备时间。7×24小时客服支持确保任何问题都能即时解决，这无疑是我们拓展国际市场值得信赖的长期合作伙伴。"
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                          <h3>Ivan Petrov - 俄罗斯客户</h3>
+                          <p>加密货币广告客户</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -737,7 +569,6 @@
               </div>
             </div>
             <!-- Testimonial Slider End -->
-          </div>
         </div>
       </div>
     </div>
