@@ -371,3 +371,18 @@ function showPopup(src) {
 function hidePopup() {
   document.getElementById("popup").style.display = "none";
 }
+
+let popupTimer = null;
+
+function showPopup() {
+  document.getElementById("advertisePopup").style.display = "flex";
+}
+
+function closePopup() {
+  document.getElementById("advertisePopup").style.display = "none";
+  // Start timer again for next popup
+  popupTimer = setTimeout(showPopup, 300000); // 10 seconds
+}
+
+// First popup after 5 seconds
+popupTimer = setTimeout(showPopup, 45000);
