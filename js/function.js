@@ -3,7 +3,20 @@
 
   var $window = $(window);
   var $body = $("body");
-
+  $(document).ready(function() {
+    $('.image-popup').magnificPopup({
+      type: 'image',
+      mainClass: 'mfp-with-zoom',
+      zoom: {
+        enabled: true,
+        duration: 300,
+        easing: 'ease-in-out',
+      },
+      gallery: {
+        enabled: true // Optional: enables navigation between images
+      }
+    });
+  });
   /* Preloader Effect */
   $window.on("load", function () {
     $(".preloader").fadeOut(600);
@@ -347,4 +360,14 @@
 /////////////////////////
 function toggleFab() {
   document.getElementById("fab").classList.toggle("open");
+}
+
+function showPopup(src) {
+  console.log("ok")
+  document.getElementById("popupImage").src = src;
+  document.getElementById("popup").style.display = "flex";
+}
+
+function hidePopup() {
+  document.getElementById("popup").style.display = "none";
 }

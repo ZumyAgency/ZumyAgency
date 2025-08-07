@@ -277,9 +277,7 @@
                     <div class="service-single-content">
                         <!-- Service Feature Image Start -->
                         <div class="service-feature-image">
-                            <figure class="image-anime reveal">
-                                <img src="images/service-single-img-1.jpg" alt="">
-                            </figure>
+                          <img src="images/service-single-img-1.jpg" onclick="showPopup(this.src)" alt="">
                         </div>
                         <!-- Service Feature Image End -->
 
@@ -548,5 +546,7 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-
+    <div class="popup" id="popup" onclick="hidePopup()">
+      <img id="popupImage" src="" alt="Popup Image">
+    </div>
 </body></html>

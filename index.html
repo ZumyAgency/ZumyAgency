@@ -28,8 +28,10 @@
     />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- Bootstrap Css -->
     <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <!-- SlickNav Css -->
     <link href="./css/slicknav.min.css" rel="stylesheet" />
     <!-- Swiper Css -->
@@ -519,7 +521,7 @@
               <div class="why-choose-image">
                 <div class="why-choose-img">
                   <figure class="image-anime">
-                    <img src="images/why-choose-image.jpg" alt="" />
+                    <img src="images/why-choose-image.jpg" alt="Thumbnail" />
                   </figure>
                 </div>
 
@@ -1379,6 +1381,7 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <!-- Validator js file -->
     <script src="js/validator.min.js"></script>
     <!-- SlickNav js file -->
@@ -1408,7 +1411,6 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
-
     <div class="fab-container" id="fab">
       <div class="fab-main" data-label="WhatsApp" style="background: #25D366;">
         <a href="https://wa.me/84834193366" target="_blank"
@@ -1421,26 +1423,9 @@
         ></a>
       </div>
     </div>
+    
+    
   </body>
 </html>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const langToggle = document.getElementById("lang-toggle");
 
-    // Load selected language from localStorage (if any)
-    const savedLang = localStorage.getItem("selectedLanguage");
-    if (savedLang) {
-      langToggle.textContent = savedLang;
-    }
-
-    // Add click listener to each language option
-    document.querySelectorAll(".lang-option").forEach(link => {
-      link.addEventListener("click", function () {
-        const selectedLang = this.getAttribute("data-lang");
-        localStorage.setItem("selectedLanguage", selectedLang);
-        // Allow link to continue (navigate to href)
-      });
-    });
-  });
-</script>
