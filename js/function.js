@@ -381,7 +381,7 @@ function showPopup() {
 function closePopup() {
   document.getElementById("advertisePopup").style.display = "none";
   // Start timer again for next popup
-  popupTimer = setTimeout(showPopup, 300000); // 10 seconds
+  //popupTimer = setTimeout(showPopup, 300000); // 10 seconds
 }
 
 // First popup after 5 seconds
