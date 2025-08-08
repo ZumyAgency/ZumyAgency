@@ -362,7 +362,7 @@ function toggleFab() {
   document.getElementById("fab").classList.toggle("open");
 }
 
-function showPopup(src) {
+function showImage(src) {
   console.log("ok")
   document.getElementById("popupImage").src = src;
   document.getElementById("popup").style.display = "flex";
