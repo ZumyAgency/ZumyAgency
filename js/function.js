@@ -385,4 +385,4 @@ function closePopup() {
 }
 
 // First popup after 5 seconds
-popupTimer = setTimeout(showPopup, 45000);
+popupTimer = setTimeout(showPopup, 30000);
